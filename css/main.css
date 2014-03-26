@@ -1,0 +1,47 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 220px;
+}
+#overlay {
+	background: rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	display: none;
+	height: 220px;
+	left: 0;
+	padding: 35px 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 220px;
+}
+#overlay p {
+	color: #FFF;
+	font-size: 30px;
+}
+#overlay p span {
+	font-size: 14px;
+}
+#game {
+	background-color: #ccc;
+	border: 10px solid #666;
+	margin: 0 auto;
+	height: 220px;
+	width: 220px;
+}
+#score {
+	font-weight: bold;
+}
+#score span {
+	font-weight: normal;
+}
+#snake {
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+}

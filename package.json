@@ -1,0 +1,11 @@
+{
+  "name": "canvas-testing",
+  "version": "0.0.1",
+  "description": "Repo for testing canvas features",
+  "dependencies": {
+    "normalize.css": "~0.0.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "BSD-2-Clause"
+}

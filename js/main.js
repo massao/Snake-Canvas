@@ -47,6 +47,9 @@ Snake.game = (function() {
 		snake.draw(ctx);
 		apple.draw(ctx);
 		if(Snake.equalCoordinates(posArray[0], apple.getPosition())) {
+			frameLength = frameLength * 0.98;
+			clearInterval(t);
+			t = setInterval(gameLoop, frameLength);
 			snake.grow();
 			apple.setNewPosition(posArray);
 			score.html(parseInt(score.html())+1);

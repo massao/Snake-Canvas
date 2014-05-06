@@ -27,6 +27,7 @@ Snake.game = (function() {
 	var posArray;
 
 	function init() {
+		frameLength = 100;
 		score.html(0);
 		var $canvas = $('#snake');
 		$canvas.attr('height', Snake.size);

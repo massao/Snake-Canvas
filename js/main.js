@@ -102,8 +102,7 @@ Snake.apple = function() {
 		var radius = Snake.blockSize/2;
 		var x = Snake.blockSize * position[0];
 		var y = Snake.blockSize * position[1];
-		var half = Snake.blockSize/2;
-		ctx.arc(x+half, y+half, half, 0, 2*Math.PI);
+		ctx.arc(x+radius, y+radius, radius, 0, 2*Math.PI);
 		ctx.fill();
 		ctx.restore();
 	}

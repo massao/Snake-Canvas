@@ -98,12 +98,12 @@ Snake.apple = function() {
 	var position = [6, 6];
 	function draw(ctx) {
 		ctx.save();
-		ctx.fillStyle = '333';
+		ctx.fillStyle = 'F00';
 		ctx.beginPath();
 		var radius = Snake.blockSize/2;
 		var x = Snake.blockSize * position[0];
 		var y = Snake.blockSize * position[1];
-		ctx.fillRect(x, y, Snake.blockSize, Snake.blockSize);
+		ctx.arc(x+radius, y+radius, radius, 0, 2*Math.PI);
 		ctx.fill();
 		ctx.restore();
 	}
